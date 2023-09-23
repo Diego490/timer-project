@@ -1,13 +1,12 @@
+/* Background styling using a gradient animation */
 body {
-    
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
-
 }
 
-
+/* Keyframes for gradient animation */
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -20,24 +19,23 @@ body {
 	}
 }
 
-/*  Font sizing */
+/*  Font sizing for countdown display */
 #countdownDisplay {
-    font-size: 48px; /* Adjust the font size as needed */
-    margin-top: 20px; /* Add margin to separate it from the title */
+	font-size: 48px; /* Adjust the font size as needed */
+	margin-top: 20px; /* Add margin to separate it from the title */
 }
 
-/*Alarm size*/
+/* Font size and color for the alarm message */
 #alarmMessage {
-    font-size: 50px; /* Adjust the font size as needed */
-    color: gold; /* Change the color to gold */
+	font-size: 50px; /* Adjust the font size as needed */
+	color: gold; /* Change the color to gold */
 }
-
+/* Styling for the clock image */
 .clock-image {
-    width: 100px; /* Adjust the width as needed */
-    z-index: 1; /* Place it above the input field */
+	width: 100px; /* Adjust the width as needed */
+	z-index: 1; /* Place it above the input field */
 }
-
+/* Margin for the user input form */
 .user-input {
-    margin-top: 20px; /* Adjust the margin as needed */
+	margin-top: 20px; /* Adjust the margin as needed */
 }
-
